@@ -1,0 +1,43 @@
+.action-btn {
+    line-height: $navbar-btn-height;
+    padding: 0 $navbar-btn-horizontal-padding;
+    color: $navbar-btn-color;
+    border-radius: $navbar-btn-radius;
+    margin-top: ($navbar-height + 2 * $navbar-vertical-padding - $navbar-btn-height) / 2;
+    font-weight: bold;
+    background-color: $navbar-btn-bg;
+    font-size: 2vmax;
+    padding-top: 0em;
+    padding-right: 0.5em;
+    padding-bottom: 0em;
+    padding-left: 0.5em;
+    &:hover{
+      color: white;
+      background-color: darken($navbar-btn-bg, 20%);
+    };
+}
+
+.scroll-btn {
+  position: absolute;
+  min-width: 100px;
+  margin-left: -50px;
+  bottom: 20px;
+  left: 50%;
+  text-align: center;
+  font-size: 8vmax;
+  color: white;
+}
+
+.pulse {
+  animation-name: pulse;
+  -webkit-animation-name: pulse;
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.input-text {
+  font-family: $base-font;
+  color: $gray-dark;
+}

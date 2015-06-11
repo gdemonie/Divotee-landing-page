@@ -1,0 +1,55 @@
+
+#banner {
+  background-image: url(../images/golf-background-light.jpg);
+  color: $gray-darker;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  min-height: 650px;
+  font-family: $header-font;
+  opacity: 0.8;
+  h1 {
+  font-size: 4vmax;
+  };
+  h2 {
+  font-size: 3vmax;
+  color: white;
+  };
+  p {
+  font-size: 2vmax;
+  font-weight: 200;
+  };
+  .card {
+  height: 100%;
+  width: 100%;
+  padding-top: 5em;
+  position: relative;
+  };
+}
+
+body {
+  font-family: $base-font;
+  color: $gray-dark;
+}
+h2, h3 {
+  font-family: $header-font;
+}
+
+
+.padded {
+  padding-top: 8em;
+  padding-bottom: 8em;
+}
+
+.card {
+  padding: 2em;
+  font-weight: 200;
+  h2 {
+  font-size: 2vmax;
+  };
+  img {
+  min-height: 100px;
+  };
+}
+
+

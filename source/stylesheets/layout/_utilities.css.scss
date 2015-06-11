@@ -1,0 +1,42 @@
+/* -------------------------------------
+ * Utilities classes
+ * These are examples of utilities classes
+ * Feel free to change them and create your own
+ * ------------------------------------- */
+.padded {
+  padding-top: 8em;
+  padding-bottom: 8em;
+}
+.bg-red {
+  background: $red;
+  color: white;
+}
+.bg-blue {
+  background: $blue;
+  color: white;
+}
+.bg-yellow {
+  background: $yellow;
+  color: white;
+}
+.bg-orange {
+  background: $orange;
+  color: white;
+}
+.bg-green {
+  background: $green;
+  color: white;
+}
+.bg-purple {
+  background: $purple;
+  color: white;
+}
+
+.grey-gradient-bg {
+  background: -webkit-linear-gradient(90deg, $grey-custom 10%, #859398 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, $grey-custom 10%, #859398 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, $grey-custom 10%, #859398 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, $grey-custom 10%, #859398 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, $grey-custom 10%, #859398 90%); /* W3C */
+  color: white;
+}
