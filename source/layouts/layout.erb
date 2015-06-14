@@ -5,10 +5,13 @@
 
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "Divotee" %></title>
     <link rel="shortcut icon" type="image/x-icon" sizes="114x114" href="golf_logo.ico" >
+    <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
 
     <%= stylesheet_link_tag "all" %>
     <%= javascript_include_tag  "all" %>
@@ -16,68 +19,57 @@
 
   <body class="<%= page_classes %>">
 
-    <div id="logo" class= "grey-gradient-bg navbar-wagon navbar-fixed-top">
-      <% link_to "#banner" do %>
-        <%= image_tag 'logo_white.png' %>
-      <% end %>
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-          <% link_to "#footer" do %>
-            <i class="fa fa-envelope-o"></i> Contact Us
-          <% end %>
-        </li>
-    </div>
-
-    <!-- <nav class="navbar navbar-default navbar-fixed-top navbar-wagon" role="navigation"> -->
-      <!-- <div class="container-fluid"> -->
+    <nav class="navbar navbar-default navbar-fixed-top navbar-wagon grey-gradient-bg" role="navigation">
+      <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
-<!--         <div class="navbar-header">
+        <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <% link_to "/index.html", class: "navbar-brand" do %>
-            <%= image_tag 'book-teetime.svg' %>
-          <% end %>
-        </div> -->
+          <a class="navbar-brand" href="#banner">
+            <%= image_tag "logo_white.png" %>
+          </a>
+        </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <% link_to "/pricing.html" do %>
-                <i class="fa fa-dollar"></i> Pricing
+              <% link_to "#footer" do %>
+                <i class="fa fa-envelope-o"></i> Contact Us
               <% end %>
             </li>
-            <li>
-              <% link_to "/contact.html" do %>
-                <i class="fa fa-envelope-o"></i> Contact
-              <% end %>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Follow-us <span class="caret"></span></a>
+            <!-- <li class="dropdown">
+
               <ul class="dropdown-menu" role="menu">
-                <li><a href="https://www.facebook.com/lewagonformation"><i class="fa fa-facebook-square"></i> Facebook</a></li>
-                <li><a href="https://twitter.com/lewagonparis"><i class="fa fa-twitter-square"></i> Twitter</a></li>
+                <li>
+                  <%= link_to "link", "#" %>
+                </li>
+                <li>
+                  <%= link_to "link", "#" %>
+                </li>
               </ul>
             </li>
-            <li><a href="#" data-toggle="modal" data-target="#subscribe-modal" class="btn">Order now</a></li>
+            <li>
+              <%= link_to "Add something", "#", class: "btn" %>
+            </li> -->
           </ul>
         </div><!-- /.navbar-collapse -->
-      <!-- </div>/.container-fluid
-    </nav> -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
 
     <%= yield %>
 
 
-    <div id="footer", class="grey-gradient-bg">
-      <div class="container">
-        <div class="row">
+    <div id="footer", class="grey-gradient-bg window-height">
+      <div class="container text-center">
+        <!-- <div class="row">
           <div class="col-xs-4">
-           <!--  <ul class="list-inline">
+            <ul class="list-inline">
                 <li>
                   <a href=""><i class="fa fa-facebook"></i></a>
                 </li>
@@ -87,53 +79,51 @@
                 <li>
                   <a href=""><i class="fa fa-instagram"></i></a>
                 </li>
-            </ul> -->
-          </div>
+            </ul>
+          </div> -->
          <!--  <div class="col-xs-8 text-centered">
             <h2>Contact Us</h2>
             <div class="container"> -->
-    <div class="row">
-      <div class="col-xs-12 col-sm-6 col-sm-offset-3">
-        <h2 class ="text-center" >Contact Us</h2>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-sm-offset-3 padded">
+            <h2>Contact Us</h2>
 
-        <form role="form" action="https://getsimpleform.com/messages?form_api_token=b369cd3b19d60f0ab690389288a0968b" method="post">
+            <form role="form" action="https://getsimpleform.com/messages?form_api_token=b369cd3b19d60f0ab690389288a0968b" method="post">
 
-  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-  <!-- <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' /> -->
-  <!-- all your input fields here.... -->
+    <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+    <!-- <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' /> -->
+    <!-- all your input fields here.... -->
 
 
-          <div class="form-group">
-            <label class="control-label" for="first_name">First name</label>
-            <input type="text" class="form-control" name="first_name" id="first_name" placeholder="John">
-          </div>
-          <div class="form-group">
-            <label class="control-label" for="last_name">Last name</label>
-            <input type="text" class="form-control" name="last_name" id="last_name" placeholder="Doe">
-          </div>
+              <div class="form-group">
+                <label class="control-label" for="first_name">First name</label>
+                <input type="text" class="form-control" name="first_name" id="first_name" placeholder="Rory">
+              </div>
+              <div class="form-group">
+                <label class="control-label" for="last_name">Last name</label>
+                <input type="text" class="form-control" name="last_name" id="last_name" placeholder="McIlroy">
+              </div>
 
-          <div class="form-group">
-            <label class="control-label" for="email">Email address</label>
-            <input type="email" class="form-control" name="email" id="email" placeholder="john@doe.com">
-          </div>
-          <div class="form-group">
-            <label class="control-label" for="message">Your message</label>
-            <textarea class="form-control" name="message" id="message" rows="2" placeholder=""></textarea>
-          </div>
-          <div class="position-relative">
-          <button type="submit" class="btn action-btn" enable>
-            Send
-          </button>
-          </div>
-        </form>
+              <div class="form-group">
+                <label class="control-label" for="email">Email address</label>
+                <input type="email" class="form-control" name="email" id="email" placeholder="rory@mcilroy.com">
+              </div>
+              <div class="form-group">
+                <label class="control-label" for="message">Your message</label>
+                <textarea class="form-control" name="message" id="message" rows="2" placeholder=""></textarea>
+              </div>
+              <div class="position-relative">
+              <button type="submit" class="btn action-btn" enable>
+                Send
+              </button>
+              </div>
+            </form>
 
-      </div>
-    </div>
-  </div>
           </div>
         </div>
       </div>
     </div>
+
 
 <!-- script -->
 
