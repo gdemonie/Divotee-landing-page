@@ -16,13 +16,10 @@
   transition: color 0.5s ease;
 }
 
-#footer li {
-  padding: 2em;
-}
 
-#footer p {
-  font-size: 3vmax;
-  margin-top: 2em;
+
+#footer h2 {
+  color: white;
 }
 
 #footer button {
@@ -30,4 +27,8 @@
   width: 60%;
   margin-right: 20%;
   margin-left: 20%;
+}
+
+#footer label {
+  font-size: 20px;
 }
