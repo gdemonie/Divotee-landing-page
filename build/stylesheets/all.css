@@ -8905,7 +8905,7 @@ button.close {
   background-size: cover;
   background-position: center center;
   padding: 2em 0;
-  min-height: 500px;
+  min-height: 700px;
   color: #222222;
   opacity: 0.9; }
 
@@ -9184,27 +9184,32 @@ button.close {
     position: relative; }
 
 /* line 32, /Users/gdemonie/code/gdemonie/Divotee-landing-page/source/stylesheets/pages/_home.css.scss */
+#description {
+  width: 100%;
+  min-height: 100%; }
+
+/* line 38, /Users/gdemonie/code/gdemonie/Divotee-landing-page/source/stylesheets/pages/_home.css.scss */
 body {
   font-family: "Open Sans", "Helvetica", "sans-serif";
   color: #333333; }
 
-/* line 36, /Users/gdemonie/code/gdemonie/Divotee-landing-page/source/stylesheets/pages/_home.css.scss */
+/* line 42, /Users/gdemonie/code/gdemonie/Divotee-landing-page/source/stylesheets/pages/_home.css.scss */
 h2, h3 {
   font-family: "Montserrat", "sans-serif"; }
 
-/* line 41, /Users/gdemonie/code/gdemonie/Divotee-landing-page/source/stylesheets/pages/_home.css.scss */
+/* line 47, /Users/gdemonie/code/gdemonie/Divotee-landing-page/source/stylesheets/pages/_home.css.scss */
 .padded {
   padding-top: 5em;
   padding-bottom: 5em; }
 
-/* line 46, /Users/gdemonie/code/gdemonie/Divotee-landing-page/source/stylesheets/pages/_home.css.scss */
+/* line 52, /Users/gdemonie/code/gdemonie/Divotee-landing-page/source/stylesheets/pages/_home.css.scss */
 .card {
   padding: 2em;
   font-weight: 200; }
-  /* line 49, /Users/gdemonie/code/gdemonie/Divotee-landing-page/source/stylesheets/pages/_home.css.scss */
+  /* line 55, /Users/gdemonie/code/gdemonie/Divotee-landing-page/source/stylesheets/pages/_home.css.scss */
   .card h2 {
     font-size: 2vmax; }
-  /* line 52, /Users/gdemonie/code/gdemonie/Divotee-landing-page/source/stylesheets/pages/_home.css.scss */
+  /* line 58, /Users/gdemonie/code/gdemonie/Divotee-landing-page/source/stylesheets/pages/_home.css.scss */
   .card img {
     min-height: 100px; }
 
