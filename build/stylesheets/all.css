@@ -8915,20 +8915,19 @@ button.close {
   font-size: 3vmax;
   transition: color 0.5s ease; }
 
-/* line 19, /Users/gdemonie/code/gdemonie/Divotee-landing-page/source/stylesheets/layout/_footer.css.scss */
-#footer li {
-  padding: 2em; }
+/* line 21, /Users/gdemonie/code/gdemonie/Divotee-landing-page/source/stylesheets/layout/_footer.css.scss */
+#footer h2 {
+  color: white; }
 
-/* line 23, /Users/gdemonie/code/gdemonie/Divotee-landing-page/source/stylesheets/layout/_footer.css.scss */
-#footer p {
-  font-size: 3vmax;
-  margin-top: 2em; }
-
-/* line 28, /Users/gdemonie/code/gdemonie/Divotee-landing-page/source/stylesheets/layout/_footer.css.scss */
+/* line 25, /Users/gdemonie/code/gdemonie/Divotee-landing-page/source/stylesheets/layout/_footer.css.scss */
 #footer button {
   width: 60%;
   margin-right: 20%;
   margin-left: 20%; }
+
+/* line 32, /Users/gdemonie/code/gdemonie/Divotee-landing-page/source/stylesheets/layout/_footer.css.scss */
+#footer label {
+  font-size: 20px; }
 
 /* -------------------------------------
  * Colors & Fonts
@@ -8996,7 +8995,7 @@ button.close {
   /* line 90, /Users/gdemonie/code/gdemonie/Divotee-landing-page/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand img, .navbar-wagon .navbar-brand svg {
     height: 50px;
-    padding: 0px; }
+    padding: 3px; }
   /* line 95, /Users/gdemonie/code/gdemonie/Divotee-landing-page/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .img-avatar {
     border: 2px solid white;
@@ -9105,7 +9104,7 @@ button.close {
   margin-top: 10px;
   font-weight: bold;
   background-color: #283048;
-  font-size: 2vmax;
+  font-size: 20px;
   padding-top: 0em;
   padding-right: 0.5em;
   padding-bottom: 0em;
@@ -9208,7 +9207,7 @@ h2, h3 {
   font-weight: 200; }
   /* line 55, /Users/gdemonie/code/gdemonie/Divotee-landing-page/source/stylesheets/pages/_home.css.scss */
   .card h2 {
-    font-size: 2vmax; }
+    font-size: 20px; }
   /* line 58, /Users/gdemonie/code/gdemonie/Divotee-landing-page/source/stylesheets/pages/_home.css.scss */
   .card img {
     min-height: 100px; }

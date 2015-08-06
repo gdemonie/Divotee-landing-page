@@ -1,34 +1,73 @@
-// Your footer style
-/* code your footer design here */
-#footer {
-  background-image: url(../images/contact-background-light.jpg);
-  background-size: cover;
-  background-position: center center;
-  padding: 2em 0;
-  min-height: 700px;
-  color: $gray-darker;
-  opacity: 0.9;
+/* -------------------------------------
+ * Colors & Fonts
+ * ------------------------------------- */
+
+ $footer-color: $gray-lighter;
+ $footer-bg: $gray-darker;
+ $footer-lang-curr-bg: #565a5c;
+ $footer-font:'Karla', sans-serif;
+ $footer-hover-color: $yellow;
+ $footer-font-size: 14px;
+
+/* -------------------------------------
+ * Styles
+ * ------------------------------------- */
+
+.footer {
+  color: $footer-color;
+  background: $footer-bg;
+  font-family: $navbar-font;
+  font-size: $footer-font-size;
 }
 
-#footer a {
-  color: $gray-darker;
-  font-size: 3vmax;
-  transition: color 0.5s ease;
+.footer p, a {
+  color: $footer-color;
+
 }
 
 
-
-#footer h2 {
-  color: white;
+.copyright {
+  color: #82888a;
 }
 
-#footer button {
-
-  width: 60%;
-  margin-right: 20%;
-  margin-left: 20%;
+.about-us {
+  padding-top: 10px;
+  padding-bottom: 0;
+  font-size: 16px;
+  p, ul {
+    margin-bottom: 5px;
+  }
 }
 
-#footer label {
-  font-size: 20px;
+
+/* -------------------------------------
+ * Footer Table
+ * ------------------------------------- */
+
+
+.footer-table th {
+  padding: 3em;
+}
+
+.footer a:hover {
+   color: $footer-hover-color;
+  }
+
+.footer-control {
+  background-color: $footer-lang-curr-bg;
+  border: 0;
+  color: $footer-color;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  max-width: 90%;
+  margin-left: 2em;
+  margin-top:1em;
+}
+
+.list-inline a {
+  padding: 4px;
+}
+
+.footer-top {
+  margin: 3%;
 }
