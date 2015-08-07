@@ -13,14 +13,18 @@
  * Styles
  * ------------------------------------- */
 
-.footer {
+#footer {
   color: $footer-color;
   background: $footer-bg;
   font-family: $navbar-font;
   font-size: $footer-font-size;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.9
 }
 
-.footer p, a {
+#footer p, a {
   color: $footer-color;
 
 }
@@ -45,29 +49,13 @@
  * ------------------------------------- */
 
 
-.footer-table th {
-  padding: 3em;
-}
 
-.footer a:hover {
+#footer a:hover {
    color: $footer-hover-color;
   }
-
-.footer-control {
-  background-color: $footer-lang-curr-bg;
-  border: 0;
-  color: $footer-color;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  max-width: 90%;
-  margin-left: 2em;
-  margin-top:1em;
-}
 
 .list-inline a {
   padding: 4px;
 }
 
-.footer-top {
-  margin: 3%;
-}
+

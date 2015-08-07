@@ -43,6 +43,8 @@ $navbar-profile-size: 45px;
 .navbar {
   margin-bottom: 0;
   z-index: 100;
+  position: fixed;
+  width: 100%
 }
 
 .navbar-wagon {
