@@ -135,11 +135,29 @@ h2, h3 {
 /**************************
   Search Bar
 *************************/
+#subscription-form {
+  position: absolute;
+  top: 85%;
+  left: 5%;
+  right: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+}
+
+#subscription-form h3 {
+  color: $white;
+  margin-top: 0px;
+  margin-bottom: 4px;
+  font-weight: 800;
+  line-height: 30px;
+  font-size: 25px;
+}
 
 #search-wrapper {
   background: rgba(0,0,0,0.6);
   position: absolute;
-  top: 25%;
+  top: 30%;
   left: 0;
   right: 0;
   padding-top: 30px;
@@ -151,7 +169,7 @@ h2, h3 {
   #search-wrapper {
   padding-top: 15px;
   padding-bottom: 15px;
-  top:12%;
+  top:20%;
       }
  }
 
@@ -160,6 +178,12 @@ h2, h3 {
   color:$white;
   font-size:24px;
   font-weight: 100;
+}
+
+#search-wrapper h2 {
+  color:$green;
+  font-size:24px;
+  font-weight: 200;
 }
 
 @media screen and (max-width: 768px) {
