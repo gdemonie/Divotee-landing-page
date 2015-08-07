@@ -4,9 +4,21 @@
  * Feel free to change them and create your own
  * ------------------------------------- */
 .padded {
-  padding-top: 10em;
-  padding-bottom: 10em;
+  padding-top: 30vh;
 }
+
+@media screen and (max-height: 800px) {
+  .padded {
+    padding-top: 25vh;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .padded {
+    padding-top: 20vh;
+  }
+}
+
 .bg-red {
   background: $red;
   color: white;
